@@ -16,7 +16,8 @@ const Header = () => {
     const [query, setQuery] = useState("");  // in this state text will be set
     const [showSearch, setShowSearch] = useState(""); 
     const navigate = useNavigate();
-    const location = useLocation(); 
+    const location = useLocation(); // jab bhi route change karte hai to iske andar uski location change ho jaati haii...basically current locationn btaata hai ye
+    
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -24,7 +25,7 @@ const Header = () => {
 
     const controlNavbar = () => {
         if (window.scrollY > 200) {
-            if (window.scrollY > lastScrollY && !mobileMenu) {
+            if (window.scrollY > lastScrollY && !mobileMenu) {  // window.scrollY :- scrolled amount btaati kii....how much we scroll the browser
                 setShow("hide");
             } else {
                 setShow("show");

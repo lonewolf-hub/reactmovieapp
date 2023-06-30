@@ -64,3 +64,5 @@ npm install -g vercel
 Contributions are welcome! If you find any issues or want to enhance the app, feel free to submit a pull request.
 
 NOTE: Also for the API go to the TMDB website and get your own API-KEY 
+
+Thank You!

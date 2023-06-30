@@ -1,6 +1,7 @@
 # React Movie App
 
-<a href="https://reactmovieapp-vite.vercel.app/"><h1>Live Preview</h1></a>
+[LIVE PREVIEW](https://reactmovieapp-vite.vercel.app/)
+
 This is a movie app built with React, Vite, and Redux. It allows users to browse and search for movies, view details of individual movies, and add movies to their favorites list.
 
 ## Features

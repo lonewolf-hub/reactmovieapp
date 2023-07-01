@@ -3,6 +3,7 @@
 [LIVE PREVIEW](https://reactmovieapp-vite.vercel.app/)
 
 This is a movie app built with React, Vite, and Redux. It allows users to browse and search for movies, view details of individual movies, and add movies to their favorites list.
+<img src="https://github.com/lonewolf-hub/reactmovieapp/blob/main/liveimg.png">
 
 ## Features
 
